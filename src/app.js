@@ -2,7 +2,7 @@ const feedDisplay = document.querySelector('#feed')
 
 
 
-fetch('http://localhost:8000/results')
+fetch('https://sotdrop.herokuapp.com/results')
     .then(response => response.json())
     .then(data => {
         data.forEach(drops => {
