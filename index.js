@@ -6,7 +6,7 @@ const {response} = require("express");
 const cors = require('cors')
 
 const app = express()
-const url = 'https://www.seaofthieves.com/twitch-drops'
+const url = 'https://www.seaofthieves.com/de/twitch-drops'
 app.use(cors())
 
 app.get('/', function (req, res){
